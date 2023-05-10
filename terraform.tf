@@ -10,8 +10,8 @@ backend "s3" {
     bucket     = "terra-backet"
     region     = "ru-central1-a"
     key        = "terraform.tfstate"
-    access_key = "YCAJEn3joXehj-eV6DXQlJBnF"
-    secret_key = "YCNLJrMih2-K7wzGqUi8HAgtOcxVWcobbwaUlXyI"
+    access_key = "key1"
+    secret_key = "key2"
 
     skip_region_validation      = true
     skip_credentials_validation = true
@@ -21,9 +21,9 @@ backend "s3" {
 
 # Configure the Yandex.Cloud provider
 provider "yandex" {
-  token                    = "y0_AgAAAAAE4kzuAATuwQAAAADY4Aa-DEYAxMNkSkOTL17brUgnk4GZ9_4"
-  cloud_id                 = "b1gjmf3d3m081752e5tg"
-  folder_id                = "b1gsm35pjg8ov6j472ro"
+  token                    = "token"
+  cloud_id                 = "id"
+  folder_id                = "id"
   zone                     = "ru-central1-a"
 }
 
